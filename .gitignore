@@ -1,0 +1,60 @@
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.suo
+*.cache
+*.ide
+*.log
+
+# ASP.NET Core
+wwwroot/
+*.db
+*.bak
+
+# Rider
+.idea/
+
+# Visual Studio
+.vscode/
+.vs/
+*.ncb
+*.suo
+*.sln.docstates
+*.userprefs
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Node.js (if using npm)
+node_modules/
+package-lock.json
+npm-debug.log
+
+# DotCover
+*.dcf
+
+# Build results
+*.dll
+*.exe
+*.pdb
+*.exe.config
+*.appx
+*.appxbundle
+*.msix
+*.msixbundle
+
+# NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+*.dotnet/
+*.nuget/
