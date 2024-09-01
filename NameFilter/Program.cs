@@ -76,9 +76,12 @@ class Program
 
 	public static void Main(string[] args)
 	{
-		foreach (var test in testCases)
+		Console.WriteLine("Input names");
+		var tmp = Console.ReadLine();
+		while (tmp != null) 
 		{
-			Console.WriteLine($"{test} : {CheckName(test)}");
+			Console.WriteLine($"{CheckName(tmp)}");
+			tmp = Console.ReadLine();
 		}
 	}
 }
